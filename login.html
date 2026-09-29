@@ -1,0 +1,464 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - GUVI Project</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center align-items-center min-vh-100">
+
+            <div class="col-12 col-sm-10 col-md-7 col-lg-5">
+
+                <div class="card shadow p-4">
+
+                    <h2 class="text-center mb-4">Login</h2>
+
+                    <div id="loginMessage"></div>
+
+                    <form id="loginForm">
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                name="email"
+                                required
+                            >
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="password" class="form-label">
+                                Password
+                            </label>
+
+                            <input
+                                type="password"
+                                class="form-control"
+                                id="password"
+                                name="password"
+                                required
+                            >
+                        </div>
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary w-100"
+                        >
+                            Login
+                        </button>
+
+                    </form>
+
+                    <p class="text-center mt-3 mb-0">
+                        Don't have an account?
+                        <a href="register.html">Register</a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+</html>  -->
+
+
+<!-- new ui -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Login</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <main class="login-page">
+
+
+        
+
+        <img
+            src="assets/welcome.jpg"
+            alt="Welcome"
+            class="login-background-image"
+        >
+
+        <div class="login-image-overlay"></div>
+
+
+
+        <section class="login-welcome">
+
+            <a
+                href="index.html"
+                class="login-brand"
+            >
+                Account<span>.</span>
+            </a>
+
+
+            <div class="login-welcome-text">
+
+                <span class="login-welcome-label">
+                    WELCOME BACK
+                </span>
+
+                <h1>
+                    Good to see
+                    <br>
+                    you again.
+                </h1>
+
+                <p>
+                    Sign in to continue managing your profile.
+                </p>
+
+            </div>
+
+        </section>
+
+
+      
+
+        <section class="login-card-wrapper">
+
+            <div class="login-card">
+
+
+                <div class="login-heading">
+
+                    <span>
+                        SIGN IN
+                    </span>
+
+                    <h2>
+                        Welcome back
+                    </h2>
+
+                    <p>
+                        Login to manage your profile.
+                    </p>
+
+                </div>
+
+
+                <div id="loginMessage"></div>
+
+
+                <form id="loginForm">
+
+
+                    <div class="login-field">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="login-field">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            class="form-control"
+                            id="password"
+                            name="password"
+                            placeholder="Enter your password"
+                            autocomplete="current-password"
+                            required
+                        >
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn login-submit"
+                    >
+                        Login
+                    </button>
+
+
+                </form>
+
+
+                <p class="login-register-text">
+
+                    Don't have an account?
+
+                    <a href="register.html">
+                        Create account
+                    </a>
+
+                </p>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>
+ -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Login</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <main class="register-page">
+
+
+       
+
+        <section class="register-image-section">
+
+            <img
+                src="assets/welcome.jpg"
+                alt="Welcome"
+                class="register-image"
+            >
+
+            <div class="register-image-overlay"></div>
+
+            <div class="register-image-text">
+
+                <span>
+                    WELCOME BACK
+                </span>
+
+                <h2>
+                    Good to see
+                    <br>
+                    you again.
+                </h2>
+
+            </div>
+
+        </section>
+
+
+        
+
+        <section class="register-content-section">
+
+
+            <a
+                href="index.html"
+                class="register-brand"
+            >
+                Account<span>.</span>
+            </a>
+
+
+            <div class="register-content">
+
+                <div class="register-card">
+
+
+                    <div class="register-heading">
+
+                        <span>
+                            SIGN IN
+                        </span>
+
+                        <h1>
+                            Welcome back
+                        </h1>
+
+                        <p>
+                            Login to manage your profile.
+                        </p>
+
+                    </div>
+
+
+                    <!-- <div id="loginMessage"></div> -->
+
+
+                    <form id="loginForm">
+
+
+                        <div class="register-field">
+
+                            <label for="email">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email"
+                                autocomplete="email"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="register-field">
+
+                            <label for="password">
+                                Password
+                            </label>
+
+                            <input
+                                type="password"
+                                class="form-control"
+                                id="password"
+                                name="password"
+                                placeholder="Enter your password"
+                                autocomplete="current-password"
+                                required
+                            >
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn register-submit"
+                        >
+                            Login
+                        </button>
+
+
+                    </form>
+
+
+                    <p class="register-login-text">
+
+                        Don't have an account?
+
+                        <a href="register.html">
+                            Create account
+                        </a>
+
+                    </p>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/login.js"></script>
+
+    <div
+    id="loginToast"
+    class="toast position-fixed top-0 end-0 m-4"
+    role="alert"
+    aria-live="assertive"
+    aria-atomic="true"
+>
+    <div class="toast-body" id="loginToastMessage"></div>
+</div>
+
+</body>
+
+</html>
