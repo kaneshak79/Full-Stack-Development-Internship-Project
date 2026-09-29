@@ -66,9 +66,18 @@ try {
 
     $redis = new Redis();
 
-    $redis->connect("127.0.0.1", 6379);
+    // $redis->connect("127.0.0.1", 6379);
 
+$redis = new Redis();
 
+$redisHost = getenv("REDISHOST") ?: "127.0.0.1";
+$redisPort = getenv("REDISPORT") ?: 6379;
+
+$redis->connect($redisHost, $redisPort);
+
+if (getenv("REDIS_PASSWORD")) {
+    $redis->auth(getenv("REDIS_PASSWORD"));
+}
     /*
      * -------------------------
      * Validate token
