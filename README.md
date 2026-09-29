@@ -14,7 +14,7 @@ It uses **HTML, CSS, JavaScript, jQuery AJAX, Bootstrap, PHP, MySQL, MongoDB, an
 ## 🚀 Live Application
 
 **Deployed Application:**
-`<PASTE YOUR RAILWAY DEPLOYED URL HERE>`
+https://full-stack-development-internship-project-production.up.railway.app/
 
 ---
 
