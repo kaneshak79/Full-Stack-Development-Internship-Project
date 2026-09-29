@@ -7,10 +7,15 @@
 
 header("Content-Type: application/json");
 
-$host = "127.0.0.1";
-$dbname = "guvi_project";
-$username = "root";
-$password = "Kanii@0709";
+// $host = "127.0.0.1";
+// $dbname = "guvi_project";
+// $username = "root";
+// $password = "Kanii@0709";
+
+$host = getenv("DB_HOST") ?: "127.0.0.1";
+$dbname = getenv("DB_NAME") ?: "guvi_project";
+$username = getenv("DB_USER") ?: "root";
+$password = getenv("DB_PASSWORD") ?: "Kanii@0709";
 
 // $host = getenv("DB_HOST");
 // $dbname = getenv("DB_NAME");
