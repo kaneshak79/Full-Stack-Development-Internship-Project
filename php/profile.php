@@ -155,9 +155,15 @@ if (getenv("REDIS_PASSWORD")) {
      * -------------------------
      */
 
-    $manager = new MongoDB\Driver\Manager(
-        "mongodb://127.0.0.1:27017"
-    );
+    // $manager = new MongoDB\Driver\Manager(
+    //     "mongodb://127.0.0.1:27017"
+    // );
+
+
+   $manager = new MongoDB\Driver\Manager(
+    getenv("MONGO_URL")
+);
+
 
 
     /*
